@@ -1,4 +1,4 @@
-import { CLIENT_ID, CLIENT_SECRET } from '../config.js';
+import { CLIENT_ID, CLIENT_SECRET } from './config.js';
 
 // You can now use CLIENT_ID and CLIENT_SECRET in your code.
 console.log("Client ID:", CLIENT_ID);
