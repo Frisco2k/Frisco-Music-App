@@ -22,7 +22,7 @@ async function fetchAccessToken() {
 async function fetchPopularArtists() {
     const response = await fetch('http://localhost:3000/api/popular-artists');
     const data = await response.json();
-    return data;
+    return data; 
 }
 
 
