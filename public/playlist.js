@@ -1,4 +1,4 @@
-import { CLIENT_ID } from './config.js';
+import { CLIENT_ID } from '../config.js';
 
 const BASE_URL = 'https://api.spotify.com/v1';
 const REDIRECT_URI = 'http://127.0.0.1:5500/Playlists.html'; // Ensure this matches your local setup

@@ -1,4 +1,4 @@
-import { CLIENT_ID, CLIENT_SECRET } from './config.js';
+import { CLIENT_ID, CLIENT_SECRET } from '../config.js';
 
 const TOKEN_URL = 'https://accounts.spotify.com/api/token';
 const BASE_URL = 'https://api.spotify.com/v1';
