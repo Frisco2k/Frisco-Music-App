@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="table-header">
+        <ul class="banner-ul">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Artists.html">Artists</a></li>
+            <li><a href="Playlists.html">Playlists</a></li>
+            <li><a href="About.html">About</a></li> 
+        </ul>
+    </div>
+
+    <h1>Create a Playlist with Recommended Songs</h1>
+    <p>This webpage automatically creates a playlist based on your top listened tracks, enjoy!</p>
+    
+    <div class="button-container">
+        <button onclick="redirectToSpotifyLogin()">Log in with Spotify</button>
+    </div>
+
+    <div class="playlist-container"></div>
+
+    <script src="playlist.js"></script> 
+</body>
+</html>
